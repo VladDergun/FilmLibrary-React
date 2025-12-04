@@ -1,0 +1,80 @@
+.section {
+  margin-bottom: 60px;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: #646cff;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+.noData {
+  color: #a0a1c3;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.reviewCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 4px solid #646cff;
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.reviewAuthor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #646cff;
+}
+
+.authorName {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.reviewDate {
+  font-size: 14px;
+  color: #a0a1c3;
+}
+
+.reviewContent {
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+.readMoreBtn {
+  background: #646cff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.readMoreBtn:hover {
+  background: #4044d0;
+}

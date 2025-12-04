@@ -1,0 +1,127 @@
+.backdrop {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.backdropOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.7) 70%,
+    rgba(2, 31, 41, 1) 100%
+  );
+}
+
+.img {
+  max-width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 2;
+}
+
+.trendText {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.mainContent {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px 60px;
+}
+
+.topSection {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.btn_ {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  padding: 10px 20px;
+  background: rgba(100, 108, 255, 0.9);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s;
+  z-index: 3;
+  backdrop-filter: blur(10px);
+}
+
+.btn_:hover {
+  background: #646cff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.4);
+}
+
+.btn_noBackdrop {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgba(100, 108, 255, 0.9);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s;
+  backdrop-filter: blur(10px);
+}
+
+.btn_noBackdrop:hover {
+  background: #646cff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.4);
+}
+
+
+@media (max-width: 768px) {
+  .backdrop {
+    height: 300px;
+    margin-bottom: -150px;
+  }
+
+  .trendText {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+
+  .topSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .img {
+    max-width: 200px;
+    height: 250px;
+  }
+}

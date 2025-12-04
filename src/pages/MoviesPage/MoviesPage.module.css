@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+}
+.colorRingWrapperBox {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.genreSection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+
+.descriptionSection {
+  margin-top: 10px;
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.descriptionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.descriptionText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.aboutLink {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.aboutLink:hover {
+  color: #ffed4e;
+  text-decoration: underline;
+}
