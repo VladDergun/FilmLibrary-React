@@ -13,7 +13,7 @@ A comprehensive film library application built with React and Vite. Discover and
 
 ## 🚀 Live Demo
 
-[View Live Site](https://[your-username].github.io/FilmLibrary-React/)
+[View Live Site](https://vladdergun.github.io/FilmLibrary-React/#/)
 
 ## 🛠️ Tech Stack
 
